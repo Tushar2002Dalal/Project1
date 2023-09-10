@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tushar Fitness Gym</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playball&family=Roboto:wght@100&family=Ubuntu+Condensed&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playball&family=Roboto:wght@100&family=Ubuntu+Condensed&family=Ubuntu:ital,wght@1,300&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap" rel="stylesheet">
+    <style>
+        body {
+            color: white;
+            margin: 0px;
+            padding: 0px;
+            background: url('https://github.com/Tushar2002Dalal/Project1/blob/main/weightlifting-2427461_1920.jpg');
+            height: 1000px;
+        }
+
+        .left {
+            display: inline-block;
+            position: absolute;
+            top: 25px;
+            left: 34px;
+        }
+
+        .left img {
+            width: 88px;
+            height: 70px;
+            position: absolute;
+            left: -29px;
+            align-content: center;
+
+        }
+
+        .logo {
+            display: inline-block;
+            position: absolute;
+            top: 100px;
+            font-family: 'Ubuntu', sans-serif;
+            left: -3px;
+            color: rgb(0, 228, 228);
+            text-align: center;
+        }
+
+        }
+
+        .left div {
+            text-align: center;
+        }
+
+        .mid {
+            display: inline-block;
+            width: 53%;
+            position: fixed;
+            top: 8px;
+            left: 315px;
+            text-align: center;
+        }
+
+        .right {
+            display: inline-block;
+            position: absolute;
+            right: 25px;
+            top: 25px;
+        }
+
+        .navbar {
+            display: inline-block;
+            padding-left: 0px;
+        }
+
+        .navbar li {
+            display: inline-block;
+        }
+
+        .navbar li a {
+            color: rgb(9, 246, 155);
+            text-decoration: none;
+            padding: 34px 23px;
+            font-size: 20px;
+            font-family: 'Playball', cursive;
+
+        }
+
+        .navbar li a:hover,
+        .navbar li a.active {
+            color: rgb(9, 246, 246);
+            text-decoration: underline;
+        }
+
+        .btn {
+            margin: 0px 9px;
+            color: aquamarine;
+            background-color: black;
+            padding: 4px 14px;
+            border: 2px solid greenyellow;
+            border-radius: 8px;
+            cursor: pointer;
+            font-family: 'Montserrat', sans-serif;
+
+        }
+
+        .btn:hover {
+            color: rgb(254, 254, 254);
+            text-decoration: underline;
+        }
+
+        .container {
+            position: absolute;
+            top: 120px;
+            margin: 89px 10px;
+            padding: 44px 10px;
+            color: aquamarine;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 15px;
+            text-align: center;
+        }
+
+        .formgroup {
+            color: yellowgreen;
+            display: list-item;
+            padding: 0px;
+        }
+
+        form.form {
+            display: list-item;
+            padding: 0px;
+        }
+
+        input.data {
+            padding: 4px 107px;
+            display: list-item;
+            margin: 18px 30px;
+            font-family: 'Montserrat', sans-serif;
+            text-align: center;
+        }
+
+        .btn2 {
+            margin: 0px 29px;
+            color: aquamarine;
+            background-color: black;
+            padding: 5px 173px;
+            border: 2px solid greenyellow;
+            border-radius: 8px;
+            cursor: pointer;
+            font-family: 'Montserrat', sans-serif;
+        }
+        .btn2:hover {
+            color: rgb(254, 254, 254);
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <!-- left box for logo -->
+        <div class="left">
+            <img src="https://github.com/Tushar2002Dalal/Project1/blob/main/logo1.png" alt="">
+        </div>
+        <div class="logo">
+            Tushar Fitness
+        </div>
+        <!-- mid box for navigation -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About Us </a></li>
+                <li><a href="#">Fitness Calculator</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+        <!-- right box for buttons -->
+        <div class="right">
+            <button class="btn">Call Us Now</button>
+            <button class="btn">Email Us</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Join the best Gym in Your Area </h1>
+        <form action="noaction.php" class="form">
+            <div class="formgroup">
+                <input type="text" name="" placeholder="Enter your name" class="data">
+                <input type="text" name="" placeholder="Enter your age" class="data">
+                <input type="text" name="" placeholder="Enter your phone number" class="data">
+                <input type="text" name="" placeholder="Enter your gender" class="data">
+            </div>
+            <button class="btn2">Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>
